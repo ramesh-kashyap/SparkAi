@@ -1,5 +1,5 @@
 
-        <section class="section-new-deposit">
+<section class="section-new-deposit">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -237,7 +237,7 @@
                                                                 <div class="field-title-min-max-block">
                                                                     <div class="field-title-max">
                                                                         <span
-                                                                            class="field-title-max__title soleyDepositMinMax">100
+                                                                            class="field-title-max__title soleyDepositMinMax">50
                                                                             USDT - Unlimited</span>
                                                                     </div>
                                                                 </div>
@@ -249,6 +249,7 @@
 
 																<select name="amount" id="" required>
 
+																<option value="50">50 {{generalDetail()->cur_text}}</option>
 																<option value="100">100 {{generalDetail()->cur_text}}</option>
 																<option value="250">250 {{generalDetail()->cur_text}}</option>
 																<option value="500">500 {{generalDetail()->cur_text}}</option>

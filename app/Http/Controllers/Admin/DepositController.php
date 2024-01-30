@@ -126,7 +126,7 @@ class DepositController extends Controller
          add_direct_income($user->user_id,$user->amount);
          
            $amount = $user->amount;
-           if ($amount>=100 && $amount<=200) 
+           if ($amount>=50 && $amount<=200) 
                {
                 $plan ='BEGINNER';
                }
@@ -152,15 +152,15 @@ class DepositController extends Controller
                {
                 $plan ='PREMIUM';
                }
-           sendEmail($users->email, 'Account Activated -'.siteName(), [
-                    'name' => $users->name,
-                    'username' => $users->username,
-                    'amount' => $user->amount,
-                    'plan' => $plan,
-                    'date' => date("D, d M Y h:i:s a", strtotime(Date("Y-m-d H:i:s"))),
-                    'viewpage' => 'activation',
+          //  sendEmail($users->email, 'Account Activated -'.siteName(), [
+          //           'name' => $users->name,
+          //           'username' => $users->username,
+          //           'amount' => $user->amount,
+          //           'plan' => $plan,
+          //           'date' => date("D, d M Y h:i:s a", strtotime(Date("Y-m-d H:i:s"))),
+          //           'viewpage' => 'activation',
     
-                 ]);
+          //        ]);
                  
         $notify[] = ['success', 'Deposit request Approved successfully'];
         return redirect()->back()->withNotify($notify);

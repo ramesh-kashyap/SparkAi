@@ -9071,8 +9071,8 @@ button {
 .deposit-item-wrapper {
 	padding-left: 12px;
 	padding-right: 12px;
-	margin-top: 24px;
-	width: 50%;
+	margin-top: 7px;
+	width: 100%;
 }
 
 .deposit-item {
@@ -9100,10 +9100,7 @@ button {
 }
 
 .deposit-item-type {
-	border-radius: 40px;
-	box-shadow: 0px 1px 1px 0px #FFF inset;
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.30);
-	padding: 6px 10px;
+	
 	display: flex;
 	align-items: center;
 	transition: 0.4s ease;
@@ -9330,7 +9327,7 @@ button {
 .deposit-item-param--start {}
 
 .deposit-item-param--start .deposit-item-param__value {
-	color: #1DA025;
+	color: ##812BE0;
 	font-size: 14px;
 }
 
@@ -32534,8 +32531,8 @@ button {
 .deposit-item-wrapper {
 	padding-left: 12px;
 	padding-right: 12px;
-	margin-top: 24px;
-	width: 50%;
+	margin-top: 7px;
+	width: 100%;
 }
 
 .deposit-item {
@@ -32563,17 +32560,16 @@ button {
 }
 
 .deposit-item-type {
-	border-radius: 40px;
-	box-shadow: 0px 1px 1px 0px #FFF inset;
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.30);
-	padding: 6px 10px;
-	display: flex;
+	
 	align-items: center;
 	transition: 0.4s ease;
 }
 
 .deposit-item-type__icon {
 	height: 16px;
+}
+.mb-5 {
+    margin-bottom: 0rem!important;
 }
 
 .deposit-item-type__title {
@@ -32793,7 +32789,7 @@ button {
 .deposit-item-param--start {}
 
 .deposit-item-param--start .deposit-item-param__value {
-	color: #1DA025;
+	color: #812BE0;
 	font-size: 14px;
 }
 

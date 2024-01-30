@@ -203,7 +203,7 @@
 	}
 
 	.affiliate-programm-t-col--current-level .affiliate-programm-t-item::before {
-		width: 500px;
+		width: 240px;;
 	}
 
 	.affiliate-programm-table {
@@ -3783,7 +3783,7 @@
 	}
 
 	.dashboard-affiliate-block .affiliate-programm-t-col--current-level .affiliate-programm-t-item::before {
-		width: 490px;
+		width: 240px;
 	}
 
 	.dashboard-sly-token-descr {

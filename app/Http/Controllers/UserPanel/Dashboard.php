@@ -15,6 +15,7 @@ use App\Models\Activitie;
 use Carbon\Carbon;
 use Redirect;
 use Log;
+use DB;
 use Hash;
 use Helper;
 class Dashboard extends Controller
@@ -45,6 +46,9 @@ class Dashboard extends Controller
       $totalIncome = Income::where('user_id',$user->id)->sum('comm');
 
         $transaction_data = Income::where('user_id',$user->id)->orderBy('id', 'desc')->take(10)->get();
+        $tradehistory = User_trade::where('user_id',$user->id)->orderBy('id', 'desc')->take(10)->get();
+        
+        // dd($tradehistory);
 
          $total_team=User::whereIn('id',(!empty($tolteam)?$tolteam:array()))->where('active_status','Active')->count();
          $totalBusiness=Investment::whereIn('user_id',(!empty($tolteam)?$tolteam:array()))->where('status','Active')->sum('amount');
@@ -54,6 +58,7 @@ class Dashboard extends Controller
         $this->data['transaction_data'] =$transaction_data;
         $this->data['totalBusiness'] =$totalBusiness;
         $this->data['deposit_report'] =$deposit_report;
+        $this->data['tradehistory'] =$tradehistory;
         $this->data['user_direct'] =$user_direct;
         $total = $personal_deposit*200/100;
         $portion = $totalIncome;
@@ -288,7 +293,7 @@ class Dashboard extends Controller
     {
     $user = Auth::user();
  
-    $balance=Auth::user()->principleBalance();
+    $balance=0;
 
         if ($balance>0) 
         {

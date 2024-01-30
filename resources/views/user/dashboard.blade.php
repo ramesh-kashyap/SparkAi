@@ -1,3 +1,289 @@
+<style>
+    .main-content .recent-contact table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+    }
+
+    table {
+        caption-side: bottom;
+        border-collapse: collapse;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    element.style {}
+
+    .main-content .recent-contact table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+    }
+
+    table {
+        caption-side: bottom;
+        border-collapse: collapse;
+    }
+
+    table td {
+        border: 1px solid white;
+        /* border-collapse: collapse; */
+    }
+
+    th,
+    td {
+        /* background-color: #96D4D4; */
+    }
+
+    .d-flex {
+        display: flex !important;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    user agent stylesheet table {
+        display: table;
+        border-collapse: separate;
+        box-sizing: border-box;
+        text-indent: initial;
+        border-spacing: 2px;
+        border-color: gray;
+    }
+
+
+    element.style {}
+
+    .main-content .recent-contact table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+    }
+
+    table {
+        caption-side: bottom;
+        border-collapse: collapse;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    user agent stylesheet table {
+        display: table;
+        border-collapse: separate;
+        box-sizing: border-box;
+        text-indent: initial;
+        border-spacing: 2px;
+        border-color: gray;
+    }
+
+    .g-3,
+    .gy-3 {
+        --bs-gutter-y: 1rem;
+    }
+
+    .g-3,
+    .gx-3 {
+        --bs-gutter-x: 1rem;
+    }
+
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-0.5 * var(--bs-gutter-x));
+        margin-left: calc(-0.5 * var(--bs-gutter-x));
+    }
+
+    .container,
+    .container-fluid,
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    thead,
+    tbody,
+    tfoot,
+    tr,
+    td,
+    th {
+        border-color: inherit;
+        border-style: solid;
+        border-width: 0;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    element.style {}
+
+    thead,
+    tbody,
+    tfoot,
+    tr,
+    td,
+    th {
+        border-color: inherit;
+        border-style: solid;
+        border-width: 0;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        border-color: inherit;
+    }
+
+    .main-content .recent-contact table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+    }
+
+    table {
+        caption-side: bottom;
+        border-collapse: collapse;
+    }
+
+    table {
+        border-collapse: separate;
+        text-indent: initial;
+        border-spacing: 2px;
+        width: 100%;
+    }
+
+    .main-content .recent-contact tr {
+        border-bottom: 1px solid #242f40;
+    }
+
+    .border-b2 {
+        border-bottom: 1px solid var(#424a55);
+    }
+
+    thead,
+    tbody,
+    tfoot,
+    tr,
+    td,
+    th {
+        border-color: inherit;
+        border-style: solid;
+        border-width: 0;
+    }
+
+    tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+
+    .main-content .recent-contact th:first-child,
+    .main-content .recent-contact td:first-child {
+        text-align: left;
+    }
+
+    .main-content .recent-contact th,
+    .main-content .recent-contact td {
+        text-align: center;
+        padding: 12px 8px;
+        white-space: nowrap;
+    }
+
+    element.style {
+        margin-top: -29px;
+        padding-right: 56px;
+    }
+
+    .main-content .recent-contact th:first-child,
+    .main-content .recent-contact td:first-child {
+        text-align: left;
+    }
+
+    .main-content .recent-contact th,
+    .main-content .recent-contact td {
+        text-align: center;
+        padding: 12px 8px;
+        white-space: nowrap;
+    }
+
+    .gap-2 {
+        gap: 0.5rem !important;
+    }
+
+    .align-items-center {
+        align-items: center !important;
+    }
+
+    .d-flex {
+        display: flex !important;
+    }
+
+    thead,
+    tbody,
+    tfoot,
+    tr,
+    td,
+    th {
+        /* border-color: inherit; */
+        /* border-style: solid; */
+        /* border-width: 0; */
+    }
+</style>
 <section class="section-dashboard">
     <div class="container">
         <div class="row">
@@ -77,7 +363,8 @@
                                                                     data-active="0" data-value="0"
                                                                     data-plus-minutely="0" data-balance-mask="$[amount]"
                                                                     data-round="2">
-                                                                   {{currency()}} {{ number_format($totalBusiness,2) }}</div>
+                                                                    {{ currency() }}
+                                                                    {{ number_format($totalBusiness, 2) }}</div>
                                                                 <div class="earning-stats-chart-legend-item__currency">
                                                                     Team Business</div>
                                                             </div>
@@ -117,7 +404,7 @@
                                                                             Discover your new investment opportunities
                                                                         </div>
                                                                         <div class="deposits-empty-btn-block">
-                                                                            <a href="{{route('user.invest')}}"
+                                                                            <a href="{{ route('user.invest') }}"
                                                                                 class="deposits-empty-btn purple-btn continue-star-btn">
                                                                                 <div class="continue-star-btn__text">
                                                                                     Invest now
@@ -140,7 +427,7 @@
                                                                             safe high-yield investment strategies
                                                                         </div>
                                                                         <div class="deposits-empty-btn-block">
-                                                                            <a href="{{route('user.invest')}}"
+                                                                            <a href="{{ route('user.invest') }}"
                                                                                 class="deposits-empty-btn purple-btn continue-star-btn">
                                                                                 <div class="continue-star-btn__text">
                                                                                     Invest now
@@ -163,7 +450,7 @@
                                                                             unique investment opportunities
                                                                         </div>
                                                                         <div class="deposits-empty-btn-block">
-                                                                            <a href="{{route('user.invest')}}"
+                                                                            <a href="{{ route('user.invest') }}"
                                                                                 class="deposits-empty-btn purple-btn continue-star-btn">
                                                                                 <div class="continue-star-btn__text">
                                                                                     Invest now
@@ -191,69 +478,80 @@
                                                         <div class="partners-help-icon"></div>
                                                         <div class="partners-help-content">
                                                             <div class="partners-help-title">
-                                                               Tokens
-                                                               
+                                                                Tokens
+
                                                             </div>
-                                                          
+
                                                             <br>
                                                             <div class="earning-stats-chart-legend-block">
-                                                            <div  class="earning-stats-chart-legend-items">
-                                                            <div class="earning-stats-chart-legend-item">
-                                                                    <div class="earning-stats-chart-legend-item__line"
-                                                                        style="background-color: rgba(129, 43, 224, 1);">
-                                                                    </div>
-                                                                    <div class="earning-stats-chart-legend-item__content">
-                                                                        <div data-chart-value="0"
-                                                                            class="soleyTotalEarningsChartDeposits earning-stats-chart-legend-item__deposit soleyDynamicAmount"
-                                                                            data-active="0" data-value="0.000000000000"
-                                                                            data-plus-minutely="" data-balance-mask="$[amount]"
-                                                                            data-round="2">
-                                                                          
-                                                                            {{ number_format(Auth::user()->investment->sum('token'), 2) }}
+                                                                <div class="earning-stats-chart-legend-items">
+                                                                    <div class="earning-stats-chart-legend-item">
+                                                                        <div class="earning-stats-chart-legend-item__line"
+                                                                            style="background-color: rgba(129, 43, 224, 1);">
                                                                         </div>
-                                                                        <div class="earning-stats-chart-legend-item__currency">
-                                                                            SGA</div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="earning-stats-chart-legend-item">
-                                                                    <div class="earning-stats-chart-legend-item__line"
-                                                                        style="background-color: rgba(129, 43, 224, 1);">
-                                                                    </div>
-                                                                    <div class="earning-stats-chart-legend-item__content">
-                                                                        <div data-chart-value="0"
-                                                                            class="soleyTotalEarningsChartDeposits earning-stats-chart-legend-item__deposit soleyDynamicAmount"
-                                                                            data-active="0" data-value="0.000000000000"
-                                                                            data-plus-minutely="" data-balance-mask="$[amount]"
-                                                                            data-round="2">
-                                                                          
-                                                                            {{ number_format(Auth::user()->investment->sum('token')*tokenPrice(), 2) }}
-                                                                        </div>
-                                                                        <div class="earning-stats-chart-legend-item__currency">
-                                                                            USDT</div>
-                                                                    </div>
-                                                                </div>
+                                                                        <div
+                                                                            class="earning-stats-chart-legend-item__content">
+                                                                            <div data-chart-value="0"
+                                                                                class="soleyTotalEarningsChartDeposits earning-stats-chart-legend-item__deposit soleyDynamicAmount"
+                                                                                data-active="0"
+                                                                                data-value="0.000000000000"
+                                                                                data-plus-minutely=""
+                                                                                data-balance-mask="$[amount]"
+                                                                                data-round="2">
 
-                                                                <div class="earning-stats-chart-legend-item">
-                                                                    <div class="earning-stats-chart-legend-item__line"
-                                                                        style="background-color: rgba(29, 160, 37, 1);">
+                                                                                {{ number_format(Auth::user()->investment->sum('token'), 2) }}
+                                                                            </div>
+                                                                            <div
+                                                                                class="earning-stats-chart-legend-item__currency">
+                                                                                SGA</div>
+                                                                        </div>
                                                                     </div>
-                                                                    <div class="earning-stats-chart-legend-item__content">
-                                                                        <div data-chart-value="0"
-                                                                            class="soleyTotalEarningsChartPartners earning-stats-chart-legend-item__deposit soleyDynamicAmount"
-                                                                            data-active="0" data-value="0"
-                                                                            data-plus-minutely="0" data-balance-mask="$[amount]"
-                                                                            data-round="2">
-                                                                            {{ tokenPrice() }}</div>
-                                                                        <div class="earning-stats-chart-legend-item__currency">
-                                                                            Live Rate</div>
+                                                                    <div class="earning-stats-chart-legend-item">
+                                                                        <div class="earning-stats-chart-legend-item__line"
+                                                                            style="background-color: rgba(129, 43, 224, 1);">
+                                                                        </div>
+                                                                        <div
+                                                                            class="earning-stats-chart-legend-item__content">
+                                                                            <div data-chart-value="0"
+                                                                                class="soleyTotalEarningsChartDeposits earning-stats-chart-legend-item__deposit soleyDynamicAmount"
+                                                                                data-active="0"
+                                                                                data-value="0.000000000000"
+                                                                                data-plus-minutely=""
+                                                                                data-balance-mask="$[amount]"
+                                                                                data-round="2">
+
+                                                                                {{ number_format(Auth::user()->investment->sum('token') * tokenPrice(), 2) }}
+                                                                            </div>
+                                                                            <div
+                                                                                class="earning-stats-chart-legend-item__currency">
+                                                                                USDT</div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="earning-stats-chart-legend-item">
+                                                                        <div class="earning-stats-chart-legend-item__line"
+                                                                            style="background-color: rgba(29, 160, 37, 1);">
+                                                                        </div>
+                                                                        <div
+                                                                            class="earning-stats-chart-legend-item__content">
+                                                                            <div data-chart-value="0"
+                                                                                class="soleyTotalEarningsChartPartners earning-stats-chart-legend-item__deposit soleyDynamicAmount"
+                                                                                data-active="0" data-value="0"
+                                                                                data-plus-minutely="0"
+                                                                                data-balance-mask="$[amount]"
+                                                                                data-round="2">
+                                                                                {{ tokenPrice() }}</div>
+                                                                            <div
+                                                                                class="earning-stats-chart-legend-item__currency">
+                                                                                Live Rate</div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
 
                                                         </div>
                                                     </div>
-                                                    
+
                                                 </div>
                                             </div>
                                         </div>
@@ -422,8 +720,7 @@
                                             <div class="balance-item-wrapper">
                                                 <div class="balance-item">
                                                     <div class="balance-item__icon">
-                                                        <div
-                                                            class="currency-item__icon currency-item__icon--binance-">
+                                                        <div class="currency-item__icon currency-item__icon--binance-">
                                                             <img class="image"
                                                                 src="{{ asset('') }}main/assets/eQPywYAlnPNuvenAX6Nb/images/6303173.png"
                                                                 alt="">
@@ -642,13 +939,6 @@
                                                     Welcome to one of the world's best affiliate programs. Discover the
                                                     way to rise your profit!
                                                 </div>
-
-
-
-
-
-
-
                                                 <style>
                                                     .affiliate-programm-t-col--next-level .affiliate-programm-t-item-title {
                                                         display: block;
@@ -661,13 +951,6 @@
                                                         border-radius: 24px;
                                                     }
                                                 </style>
-
-
-
-
-
-
-
                                                 <div class="affiliate-programm-table-block">
                                                     <div class="affiliate-programm-table">
                                                         <div class="affiliate-programm-t-cols">
@@ -768,115 +1051,121 @@
                                         <div class="db-content-block-descr">
                                             Control your transactions. Make deposits and withdraw your profit.
                                         </div>
+                                        <div class="deposit-items-block">
+                                            <div class="deposit-items">
 
-                                        <div class="transaction-items-block">
-                                            <div class="transaction-items">
-
-												@foreach ($transaction_data as $value)
-												<div class="transaction-item">
-                                                    <div class="transaction-item-left">
-                                                        <div class="transaction-item-id-block">
-                                                            <div class="transaction-item-id">
-                                                                <div class="transaction-item-id-content">
-                                                                    <div class="transaction-item-id-title">
-                                                                        #
-                                                                    </div>
-                                                                    <div class="transaction-item-id-value">
-                                                                        <strong>{{$value->orderId}}</strong>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                <div class="col-xl-9 col-xxl-9">
+                                                    <div class="mainchart px-3 px-md-4 py-3 py-lg-4 ">
+                                                        <div>
+                                                            <h5 class="mb-0">Recent Trade History</h5>
                                                         </div>
-                                                        <div class="transaction-item-status-block">
+                                                        <div class="recent-contact pb-2 pt-3">
 
 
-                                                            <div
-                                                                class="transaction-item-status transaction-item-status--success">
-                                                                Success
-                                                            </div>
+                                                            <div class="transaction-items-block">
+                                                                @foreach ($tradehistory as $trade)
+                                                                    <div class="transaction-items">
+                                                                        <div class="transaction-item">
+
+                                                                            <table>
+
+                                                                                <tbody>
+
+                                                                                    <tr class="border-b2">
+
+                                                                                        <td class="d-flex align-items-center gap-2"
+                                                                                            style="    margin-top: -29px; color:black;    padding-right: 30px;">
+
+                                                                                            EURUSD
+
+                                                                                            <?php
+                                                                                            
+                                                                                            $type = $trade->tradetype;
+                                                                                            // echo $t;
+                                                                                            
+                                                                                            if ($type === 'Buy') {
+                                                                                                echo "<span style='color: #1f01e0;font-weight: 900;'>Buy</span>";
+                                                                                            } else {
+                                                                                                echo "<span style='color: #f60c0c;font-weight: 900;'>Sell</span>";
+                                                                                            }
+                                                                                            
+                                                                                            ?>
+
+                                                                                            <br><span
+                                                                                                style="margin-left: -123px;padding-top: 78px;">
+                                                                                                {{ $trade->entryPrice }}
+                                                                                                -
+                                                                                                {{ $trade->endPrice }}</span>
+                                                                                        </td>
+                                                                                        <td>
+
+                                                                                            <?php
+                                                                                            
+                                                                                            $entryPrice=$trade->entryPrice ;
+                                                                                            $endPrice=$trade->endPrice ;
+                                                                                                if($entryPrice < $endPrice){
+                                                                                                    $profit=$endPrice-$entryPrice;
+                                                                                                    $number =  sprintf('%.2f', floor($profit*10000*($profit>0?1:-1))/10000*($profit>0?1:-1));
+                                                                                                    echo '<span
+                                                                                                style="color:#1f01e0; font-weight: 900;"">' . $number .
+                                                                                                '</span>';
+                                                                                                }else{
+                                                                                                    $profit=$endPrice-$entryPrice;
+                                                                                                    $number =  sprintf('%.2f', floor($profit*10000*($profit>0?1:-1))/10000*($profit>0?1:-1));
+                                                                                                    echo '<span
+                                                                                                style="color:rgb(237, 14, 14);font-weight: 900;">' . $number .
+                                                                                                '</span>';
+                                                                                                    
+                                                                                                }
 
 
-                                                        </div>
-                                                        <div class="transaction-item-type-block">
-                                                            <div class="transaction-item-type">
-                                                                <div class="transaction-item-type-title"
-                                                                    style="font-size:14px;">
-																	{{$value->remarks}}
-                                                                </div>
-                                                                <div style="font-size:12px;text-transform: none"
-                                                                    class="transaction-item-type-subtitle">
-																	{{$value->rname}}
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="transaction-item-right">
-                                                        <div class="transaction-item-info-block">
-                                                            <div class="transaction-item-info">
-                                                                <div class="transaction-item-info-currency">
-                                                                    <div
-                                                                        class="currency-item__icon currency-item__icon--tether">
-                                                                        <img class="image"
-                                                                            src="{{ asset('') }}main/assets/eQPywYAlnPNuvenAX6Nb/images/svg/currency/tether.svg"
-                                                                            alt="">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="transaction-item-info-content">
-                                                                    <div class="transaction-item-info-amount"
-                                                                        style="font-size:14px;">
-                                                                        {{number_format($value->comm,2)}} USDT
-                                                                    </div>
-                                                                    <div class="transaction-item-info-date"
-                                                                        style="font-size:12px;">
-                                                                        {{date("D, d M Y", strtotime($value->created_at))}}
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                                                                
+                                                                                                
+                                                                                                ?>
+                                                                                            
 
+                                                                                            
+                                                                                            <br>
+                                                                                            <span
+                                                                                                style=" color:black;font-size: 10px;"><b>Open:
+                                                                                                    {{ $trade->entrytime }}</b></span><br>
+                                                                                            <span
+                                                                                                style=" color:black;font-size: 10px;"><b>Closs:{{ $trade->endtime }}</b></span>
+                                                                                        </td>
+                                                                                    </tr>
 
-                                                        <div class="transaction-item-manage-links-block">
-                                                            <div class="transaction-item-manage-links">
-                                                            </div>
-                                                        </div>
-                                                        <div class="transaction-item-more-info-link-block">
-                                                            <div
-                                                                class="transaction-item-more-info-link-wrapper dropend">
-                                                                <button class="transaction-item-more-info-link"
-                                                                    type="button" data-bs-toggle="dropdown"
-                                                                    aria-expanded="false">More</button>
-                                                                <div class="transaction-item-more-info-tooltip dropdown-menu"
-                                                                    style="">
-                                                                    <div
-                                                                        class="transaction-item-more-info-tooltip-inner">
-                                                                        <div
-                                                                            class="transaction-item-more-info-tooltip__content">
-
-
-
-                                                                            Strategy: <strong>{{$value->remarks}}
-                                                                                </strong>
-
-
+                                                                                </tbody>
+                                                                            </table>
 
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                @endforeach
                                                             </div>
+
                                                         </div>
+
                                                     </div>
+
+
                                                 </div>
-												@endforeach
-
-                                              
+                                            </div>
 
 
+
+                                            <div class="pagination-block">
 
                                             </div>
+
+
                                         </div>
 
 
+
+
+
                                     </div>
+
+
                                     <div class="dashboard-transactions-block-right">
                                         <div class="dashboard-sly-token-block">
                                             <div class="dashboard-sly-token-block-top">
